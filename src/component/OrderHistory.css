@@ -1,0 +1,31 @@
+.order-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.order-card:hover {
+  transform: translateY(-2px);
+}
+
+.order-items ul {
+  padding-left: 20px;
+}
+
+.order-items li {
+  margin-bottom: 5px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.card-header h5 {
+  margin: 0;
+  color: #333;
+}
+
+.badge {
+  float: right;
+}
